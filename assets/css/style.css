@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* color: white; */
+  
+
+}
+body{
+    background-color: rgba(13,19,35,255);
+    color: white;
+    
+}
+
+main{
+    width: 1000px;
+    margin: 200px auto;
+    display: flex;
+    /* background-color: rgba(13,19,35,255); */
+}
+.container1{
+    width: 200px;
+    height: 410px;
+    border-radius: 10px;
+    
+}
+.report{
+    background-color:rgba(87,70,234,255);
+    padding: 50px;
+    height: 150px;
+}
+.daily{
+    height: 134px;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 410px;
+    justify-content: space-around;
+   
+}
+.report img{
+    width: 60px;
+}
+.work,.study,.play,.exercise,.social,.self{
+    height: 180px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.img,.img2,.img3,.img4,.img5,.img6{
+    background-color: #ff8b64;
+    padding-left: 130px;
+    border-radius: 7px;
+    height: 50px;
+    
+}
+.work,.play,.study,.exercise,.social,.self,.daily{
+    background-color: rgba(29,32,75,255)
+    ;
+
+}
+.img2{
+    background-color: rgba(86,194,230,255);
+}
+.img3{
+    background-color:#ff5e7d
+    ;
+}
+.img4{
+    background-color: rgba(75,207,131,255)
+    ;
+}
+.img5{
+    background-color: #7235d1
+    ;
+}
+.img6{
+    background-color:#f1c75b
+        ;
+}
+    
+.img img{
+    width: 60px;
+}
+h1{
+    padding: 15px;
+}
+p{
+    margin-left: 20px;
+}
